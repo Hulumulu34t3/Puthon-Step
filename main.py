@@ -21,5 +21,10 @@ elif (age > 25) and (age < 44):
     print('Ви молода людина')
 elif (age > 44) and (age < 60):
     print('Ви  людина середнього віку')
-elif (age >65 ) and (age < 90):
+elif (age >65 ) and (age < 75):
     print('Ви  людина похилого віку')
+elif (age >75 ) and (age < 85):
+    print('Ви  старий')
+elif (age >85 ) and (age < 100):
+    print('Ви  довгожитель')
+
